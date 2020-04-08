@@ -1,0 +1,43 @@
+{
+    "fields": [
+        {
+            "constraints": {
+                "maxLength": 32,
+                "required": true
+            },
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "constraints": {
+                "maxLength": 32,
+                "required": true
+            },
+            "name": "quadrant",
+            "type": "string"
+        },
+        {
+            "constraints": {
+                "required": true,
+                "pattern": "Adopt|Trial|Assess|Hold"
+            },
+            "name": "ring",
+            "type": "string"
+        },
+        {
+            "constraints": {
+                "required": true
+            },
+            "name": "isNew",
+            "type": "boolean"
+        },
+        {
+            "constraints": {
+                "maxLength": 1024,
+                "required": false
+            },
+            "name": "description",
+            "type": "string"
+        }
+    ]
+}
