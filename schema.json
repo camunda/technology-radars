@@ -28,7 +28,7 @@
             "constraints": {
                 "required": true
             },
-            "name": "isnew",
+            "name": "isNew",
             "type": "boolean"
         },
         {
@@ -37,14 +37,6 @@
                 "required": false
             },
             "name": "description",
-            "type": "string"
-        },
-        {
-            "constraints": {
-                "maxLength": 121,
-                "required": false
-            },
-            "name": "",
             "type": "string"
         }
     ]
