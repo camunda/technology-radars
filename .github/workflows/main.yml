@@ -11,6 +11,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Run image
+    - name: Lint CSV
       # https://github.com/Data-Liberation-Front/csvlint.rb/blob/master/README.md
-      run: docker run --rm -tv $GITHUB_WORKSPACE:/workspace gsscogs/csvlint ash -c 'for f in /workspace/*.csv; do csvlint $f --schema=schema.json; done'
+      run: docker run --rm -tv $GITHUB_WORKSPACE:/workspace gsscogs/csvlint ash -c 'for f in /workspace/*.csv; do csvlint $f --schema=.lint/schema.json; done'
