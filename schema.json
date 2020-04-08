@@ -2,7 +2,7 @@
     "fields": [
         {
             "constraints": {
-                "maxLength": 15,
+                "maxLength": 32,
                 "required": true
             },
             "name": "name",
@@ -10,7 +10,7 @@
         },
         {
             "constraints": {
-                "maxLength": 25,
+                "maxLength": 32,
                 "required": true
             },
             "name": "quadrant",
@@ -18,8 +18,8 @@
         },
         {
             "constraints": {
-                "maxLength": 6,
-                "required": true
+                "required": true,
+                "pattern": "Adopt|Trial|Assess|Hold"
             },
             "name": "ring",
             "type": "string"
@@ -33,7 +33,7 @@
         },
         {
             "constraints": {
-                "maxLength": 342,
+                "maxLength": 1024,
                 "required": false
             },
             "name": "description",
