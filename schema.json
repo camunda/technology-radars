@@ -1,0 +1,51 @@
+{
+    "fields": [
+        {
+            "constraints": {
+                "maxLength": 15,
+                "required": true
+            },
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "constraints": {
+                "maxLength": 25,
+                "required": true
+            },
+            "name": "quadrant",
+            "type": "string"
+        },
+        {
+            "constraints": {
+                "maxLength": 6,
+                "required": true
+            },
+            "name": "ring",
+            "type": "string"
+        },
+        {
+            "constraints": {
+                "required": true
+            },
+            "name": "isnew",
+            "type": "boolean"
+        },
+        {
+            "constraints": {
+                "maxLength": 342,
+                "required": false
+            },
+            "name": "description",
+            "type": "string"
+        },
+        {
+            "constraints": {
+                "maxLength": 121,
+                "required": false
+            },
+            "name": "",
+            "type": "string"
+        }
+    ]
+}
