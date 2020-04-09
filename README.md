@@ -51,7 +51,7 @@ name,quadrant,ring,isNew,description
 There has to be **exactly four** rings in your file.
 
 
-Possible values are (in order from inner to outer):
+The circles are (in order from inner to outer):
 - `Adopt`: actively used in the production
 - `Trial`: something being actively evaluated (e.g. you build POCs with it)
 - `Assess`: something worth exploring (e.g. you read about it)
