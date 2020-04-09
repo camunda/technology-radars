@@ -65,12 +65,6 @@ The circles are (in order from inner to outer):
 
 ## FAQ
 
-### How does it work?
-
-There's a transparent proxy set for a wildcard `*.radar.camunda.cloud` that redirects all the traffic to https://radar.thoughtworks.com
-
-We wanted to have an easy to remember URL for every radar, hence the proxy.
-
 ### My radar is not generated
 
 Check the number of the unique segments and circles - it should be exactly four of each.
