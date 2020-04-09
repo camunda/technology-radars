@@ -46,9 +46,15 @@ name,quadrant,ring,isNew,description
 - `isNew` is a boolean to mark if something has changed with the technology (e.g. it's been moved to another ring). If `TRUE`, is shown as a triangle, otherwise as a circle.
 - `description` (optional) is an HTML-format description of a technology which is displayed when you click on it.
 
+### Quadrants
+
+There has to be **exactly four** quadrants in your data.
+
+Quadrants are arbitratry strings. In the visualization, they are ordered counter-clockwise.
+
 ### Rings
 
-There has to be **exactly four** rings in your file.
+There has to be **exactly four** rings in your data.
 
 
 The circles are (in order from inner to outer):
