@@ -20,5 +20,5 @@ GraphQL,Languages & Frameworks,Assess,TRUE,At the moment there is no use case fo
 React i18next,Languages & Frameworks,Trial,TRUE,
 kustomize,Tools,Trial,TRUE,
 Kubernetes,Infrastructure Components,Trial,TRUE,
-Google CloudBuild,Services,Trial,TRUE,
+Google Cloud Build,Services,Trial,TRUE,
 NextJS,Languages & Frameworks,Hold,TRUE,Benefits don't outweigh the effort for the time being
