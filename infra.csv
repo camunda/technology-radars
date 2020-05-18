@@ -35,16 +35,16 @@ Golang,Languages & Frameworks,Assess,FALSE,"<p>Currently, only used in <a href="
 Shell,Languages & Frameworks,Adopt,FALSE,
 Groovy,Languages & Frameworks,Adopt,FALSE,"<p>Groovy is used to define Jenkins jobs and pipelines. Example: <a href=""https://github.com/camunda-ci/jenkins-job-dsl-seed-jobs"">jenkins-job-dsl-seed-jobs</a>, <a href=""https://github.com/camunda-ci/jenkins-global-shared-library"">jenkins-global-shared-library</a></p>"
 Kubernetes,Languages & Frameworks,Adopt,FALSE,"<p>We're using k8s to host a wide range of applications, mainly our CI/CD tooling (Jenkins), internal apps, SaaS environments of Cawemo</p>"
-Terraform,Languages & Frameworks,Adopt,FALSE,"<p>Used to define infrastructure as code, example: <a href=""https://github.com/camunda-internal/gcloud-infrastructure"">gcloud-infrastructure</a> project.</p>"
+Terraform,Languages & Frameworks,Adopt,FALSE,"<p>Used to define infrastructure as code, example: <a href=""https://github.com/camunda/infra-core"">infra-core</a> project.</p>"
 Javascript,Languages & Frameworks,Adopt,TRUE,"<p>Used by the <a href=""https://downloads.camunda.cloud"">Download center</a> for Camunda products. <a href=""https://github.com/camunda-internal/camunda-downloads"">repository</a></p>"
 Node.js,Languages & Frameworks,Adopt,TRUE,"<p>Used by the <a href=""https://downloads.camunda.cloud"">Download center</a> for Camunda products. <a href=""https://github.com/camunda-internal/camunda-downloads"">repository</a></p>"
 Pylint,Tools,Adopt,TRUE,
 yamllint,Tools,Adopt,TRUE,
-kubeval,Tools,Adopt,TRUE,"<p><a href=""https://kubeval.instrumenta.dev/"">kubeval</a> is used in <a href=""https://github.com/camunda-internal/gcloud-infrastructure"">gcloud-infrastructure</a> project to check the validity of k8s manifests against the current and the next minor versions of the clusters.</p>"
+kubeval,Tools,Adopt,TRUE,"<p><a href=""https://kubeval.instrumenta.dev/"">kubeval</a> is used in <a href=""https://github.com/camunda/infra-core"">infra-core</a> project to check the validity of k8s manifests against the current and the next minor versions of the clusters.</p>"
 CodeNarc,Tools,Adopt,TRUE,"<p><a href=""https://codenarc.github.io/CodeNarc/"">CodeNarc</a> is used to check for common defects and bad practices in Groovy projects, e.g. <a href=""https://github.com/camunda-ci/jenkins-global-shared-library"">jenkins-global-shared-library</a>, <a href=""https://github.com/camunda-ci/jenkins-job-dsl-seed-jobs"">jenkins-job-dsl-seed-jobs</a>.</p>"
 shfmt,Tools,Adopt,TRUE,
 Shellcheck,Tools,Adopt,TRUE,
-Kustomize,Tools,Adopt,FALSE,"<p><a href=""https://github.com/kubernetes-sigs/kustomize"">Kustomize</a> is a YAML templating tool to render k8s resources. Used in <a href=""https://github.com/camunda-internal/gcloud-infrastructure"">gcloud-infrastructure</a> project.</p>"
+Kustomize,Tools,Adopt,FALSE,"<p><a href=""https://github.com/kubernetes-sigs/kustomize"">Kustomize</a> is a YAML templating tool to render k8s resources. Used in <a href=""https://github.com/camunda/infra-core"">infra-core</a> project.</p>"
 config-lint,Tools,Adopt,FALSE,"<p><a href=""https://github.com/stelligent/config-lint"">config-lint</a> is a tool to validate configuration files using rules specified in YAML. We're use it locally and in CI pipelines to lint and ensure Terraform best practices like <a href=""https://www.terraform.io/docs/extend/best-practices/naming.html"">naming convention</a>.</p>"
 Atlantis,Tools,Assess,TRUE,
 terradiff,Tools,Assess,TRUE,"<p>Can alert when Terraform code does not match state: <a href=""https://github.com/jml/terradiff"">terradiff</a></p>"
