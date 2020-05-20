@@ -22,3 +22,5 @@ kustomize,Tools,Trial,TRUE,
 Kubernetes,Infrastructure Components,Trial,TRUE,
 Google Cloud Build,Services,Trial,TRUE,
 NextJS,Languages & Frameworks,Hold,TRUE,Benefits don't outweigh the effort for the time being
+JUnit 5,Languages & Frameworks,Trial,TRUE,
+GreenMail,Tools,Trial,TRUE,
