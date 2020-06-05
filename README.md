@@ -11,6 +11,7 @@ The radars can be seen at `https://<team>.radar.camunda.cloud`, for instance:
 - [Automation Platform](https://cambpm.radar.camunda.cloud)
 - [Cawemo](https://cawemo.radar.camunda.cloud)
 - [Cloud](https://cloud.radar.camunda.cloud)
+- [Modeling](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fbpmn-io%2Ftechnology-radar%2Fmaster%2Fradar.csv)
 - [Infrastructure](https://infra.radar.camunda.cloud)
 - [Operate](https://operate.radar.camunda.cloud)
 - [Optimize](https://optimize.radar.camunda.cloud)
