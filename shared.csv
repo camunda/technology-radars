@@ -3,7 +3,7 @@ Kotlin,Languages & Frameworks,Trial,TRUE,
 TypeScript,Languages & Frameworks,Trial,TRUE,
 Spring Security,Languages & Frameworks,Trial,TRUE,
 Kibana,Tools,Trial,TRUE,
-Elasticsearch,Tools,Trial,TRUE,
+Elasticsearch,Infrastructure Components,Trial,TRUE,
 Filebeat,Tools,Trial,TRUE,
 Yarn,Tools,Trial,TRUE,
 Docker,Infrastructure Components,Trial,TRUE,
@@ -25,3 +25,7 @@ NextJS,Languages & Frameworks,Hold,TRUE,Benefits don't outweigh the effort for t
 JUnit 5,Languages & Frameworks,Trial,TRUE,
 GreenMail,Tools,Trial,TRUE,
 Terraform,Tools,Trial,TRUE,
+ArchUnit,Tools,Trial,TRUE
+Mailgun,Services,Trial,TRUE
+Grafana,Infrastructure Components,Trial,TRUE
+Prometheus,Infrastructure Components,Trial,TRUE
