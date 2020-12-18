@@ -30,5 +30,4 @@ Mailgun,Services,Trial,TRUE
 Grafana,Infrastructure Components,Trial,TRUE
 Prometheus,Infrastructure Components,Trial,TRUE
 Toxiproxy,Tools,Trial,TRUE
-Firefox Relay,Tools,Trial,TRUE
 sops,Tools,Trial,TRUE
