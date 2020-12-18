@@ -29,3 +29,5 @@ ArchUnit,Tools,Trial,TRUE
 Mailgun,Services,Trial,TRUE
 Grafana,Infrastructure Components,Trial,TRUE
 Prometheus,Infrastructure Components,Trial,TRUE
+Toxiproxy,Tools,Trial,TRUE
+sops,Tools,Trial,TRUE
