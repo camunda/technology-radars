@@ -25,9 +25,9 @@ NextJS,Languages & Frameworks,Hold,TRUE,Benefits don't outweigh the effort for t
 JUnit 5,Languages & Frameworks,Trial,TRUE,
 GreenMail,Tools,Trial,TRUE,
 Terraform,Tools,Trial,TRUE,
-ArchUnit,Tools,Trial,TRUE
-Mailgun,Services,Trial,TRUE
-Grafana,Infrastructure Components,Trial,TRUE
-Prometheus,Infrastructure Components,Trial,TRUE
-Toxiproxy,Tools,Trial,TRUE
-sops,Tools,Trial,TRUE
+ArchUnit,Tools,Trial,TRUE,
+Mailgun,Services,Trial,TRUE,
+Grafana,Infrastructure Components,Trial,TRUE,
+Prometheus,Infrastructure Components,Trial,TRUE,
+Toxiproxy,Tools,Trial,TRUE,
+sops,Tools,Trial,TRUE,
