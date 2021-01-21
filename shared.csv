@@ -6,7 +6,7 @@ Infrastructure as Code,Techniques,Adopt,FALSE,"We use kustomize, docker-compose,
 CI/CD,Techniques,Adopt,FALSE,Aleks
 DevOps,Techniques,Adopt,FALSE,"The developers of our team also operate and monitor our SaaS services. Each week a developer acts as a medic. The SRE and Infra teams support us in more advanced scenarios."
 Code of Conduct,Techniques,Adopt,FALSE,Dimitri
-No estimates,Techniques,Adopt,FALSE,"We do no estimate how much time we are going to need to finish a task or achieve a goal. We prioritize and maintain a steady flow of "small" pieces of work. We thereby ensure that the most important stuff gets done first and that we are able to adjust our plans."
+No estimates,Techniques,Adopt,FALSE,"We do no estimate how much time we are going to need to finish a task or achieve a goal. We prioritize and maintain a steady flow of ""small"" pieces of work. We thereby ensure that the most important stuff gets done first and that we are able to adjust our plans."
 Pair programming,Techniques,Adopt,FALSE,Aleks
 Chapter,Techniques,Trial,FALSE,Beriwan
 Kibana,Tools,Adopt,FALSE,
