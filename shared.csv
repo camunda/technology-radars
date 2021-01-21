@@ -2,24 +2,25 @@ name,quadrant,ring,isNew,description
 Kotlin,Languages & Frameworks,Adopt,FALSE,
 TypeScript,Languages & Frameworks,Adopt,FALSE,
 Spring (Data JPA - MVC - Security - ...),Languages & Frameworks,Adopt,FALSE,
-Express,Languages & Frameworks,Trial,FALSE,
-Node.js,Languages & Frameworks,Trial,FALSE,
-React,Languages & Frameworks,Trial,FALSE,
-Redux,Languages & Frameworks,Trial,FALSE,
-Nimbus,Languages & Frameworks,Trial,FALSE,
-GraphQL,Languages & Frameworks,Assess,FALSE,At the moment there is no use case for our application but we'd like to use it at some point
-React i18next,Languages & Frameworks,Trial,FALSE,
+Express,Languages & Frameworks,Adopt,FALSE,
+Node.js,Languages & Frameworks,Adopt,FALSE,
+React,Languages & Frameworks,Adopt,FALSE,
+Redux,Languages & Frameworks,Adopt,FALSE,
+Nimbus,Languages & Frameworks,Adopt,FALSE,
+GraphQL,Languages & Frameworks,Hold,FALSE,We do not see an opportunity to introduce GraphQL into the existing system landscape right now.
+React i18next,Languages & Frameworks,Adopt,FALSE,
 NextJS,Languages & Frameworks,Hold,FALSE,Benefits don't outweigh the effort for the time being
 JUnit 5,Languages & Frameworks,Adopt,FALSE,
 Mockito,Languages & Frameworks,Adopt,FALSE,
 AssertJ,Lanuages & Frameworks,Adopt,FALSE,
+cypress,Lanuages & Frameworks,Adopt,FALSE,
 Kibana,Tools,Adopt,FALSE,
 Filebeat,Tools,Adopt,FALSE,
 Yarn,Tools,Adopt,FALSE,
 Make,Tools,Adopt,FALSE,
 Gradle,Tools,Adopt,FALSE,
 kustomize,Tools,Adopt,FALSE,
-GreenMail,Tools,Trial,FALSE,We use GreenMail for our backend integration tests
+GreenMail,Tools,Adopt,FALSE,We use GreenMail for our backend integration tests
 Mailhog,Tools,Adopt,TRUE,We use Mailhog to test e-mail delivery in our E2E tests
 Terraform,Tools,Trial,TRUE,
 ArchUnit,Tools,Trial,TRUE,
@@ -31,6 +32,11 @@ PostgreSQL,Tools,Adopt,FALSE,
 Elasticsearch,Tools,Adopt,FALSE,
 Grafana,Tools,Adopt,FALSE,
 Prometheus,Tools,Adopt,FALSE,
+Styled Components,Tools,Adopt,FALSE,
+jest,Tools,Adopt,FALSE,
+enzyme,Tools,Adopt,FALSE,
+eslint,Tools,Adopt,FALSE,
+docker-compose,Tools,Adopt,FALSE,
 Docker,Platforms,Adopt,FALSE,
 Kubernetes,Platforms,Adopt,FALSE,
 Slack,Platforms,Adopt,FALSE,
@@ -39,13 +45,13 @@ GitHub Actions,Platforms,Adopt,FALSE,
 Google Cloud Platform (GCP),Platforms,Adopt,FALSE,
 Google Cloud Build,Platforms,Hold,FALSE,We prefer GitHub Actions due to be superior integration with GitHub
 Mailgun,Platforms,Adopt,FALSE,
-OKRs,Techniques,Adopt,FALSE,
-DRIs,Technique,Adopt,FALSE,
-1:1,Techniques,Adopt,FALSE,
-Infrastructure as Code,Techniques,Adopt,FALSE,
-CI/CD,Techniques,Adopt,FALSE,
-DevOps,Techniques,Adopt,FALSE,
-Code of Conduct,Techniques,Adopt,FALSE,
-No estimates,Techniques,Adopt,FALSE,
-Pair programming,Techniques,Adopt,FALSE,
-Chapter,Techniques,Adopt,FALSE,
+OKRs,Techniques,Adopt,FALSE,Aleks
+DRIs,Technique,Adopt,FALSE,Beriwan
+1:1,Techniques,Adopt,FALSE,Dimitri
+Infrastructure as Code,Techniques,Adopt,FALSE,Seb
+CI/CD,Techniques,Adopt,FALSE,Aleks
+DevOps,Techniques,Adopt,FALSE,Seb
+Code of Conduct,Techniques,Adopt,FALSE,Dimitri
+No estimates,Techniques,Adopt,FALSE,Seb
+Pair programming,Techniques,Adopt,FALSE,Aleks
+Chapter,Techniques,Trial,FALSE,Beriwan
