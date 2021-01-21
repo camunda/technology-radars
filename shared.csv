@@ -1,7 +1,7 @@
 name,quadrant,ring,isNew,description
 Kotlin,Languages & Frameworks,Adopt,FALSE,
 TypeScript,Languages & Frameworks,Adopt,FALSE,
-Spring (Data JPA\, MVC\, Security\, ...),Languages & Frameworks,Adopt,FALSE,
+Spring (Data JPA - MVC - Security - ...),Languages & Frameworks,Adopt,FALSE,
 Express,Languages & Frameworks,Trial,FALSE,
 Node.js,Languages & Frameworks,Trial,FALSE,
 React,Languages & Frameworks,Trial,FALSE,
