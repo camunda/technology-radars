@@ -12,8 +12,8 @@ React i18next,Languages & Frameworks,Adopt,FALSE,
 NextJS,Languages & Frameworks,Hold,FALSE,Benefits don't outweigh the effort for the time being
 JUnit 5,Languages & Frameworks,Adopt,FALSE,
 Mockito,Languages & Frameworks,Adopt,FALSE,
-AssertJ,Lanuages & Frameworks,Adopt,FALSE,
-cypress,Lanuages & Frameworks,Adopt,FALSE,
+AssertJ,Languages & Frameworks,Adopt,FALSE,
+cypress,Languages & Frameworks,Adopt,FALSE,
 Kibana,Tools,Adopt,FALSE,
 Filebeat,Tools,Adopt,FALSE,
 Yarn,Tools,Adopt,FALSE,
@@ -46,7 +46,7 @@ Google Cloud Platform (GCP),Platforms,Adopt,FALSE,
 Google Cloud Build,Platforms,Hold,FALSE,We prefer GitHub Actions due to be superior integration with GitHub
 Mailgun,Platforms,Adopt,FALSE,
 OKRs,Techniques,Adopt,FALSE,Aleks
-DRIs,Technique,Adopt,FALSE,Beriwan
+DRIs,Techniques,Adopt,FALSE,Beriwan
 1:1,Techniques,Adopt,FALSE,Dimitri
 Infrastructure as Code,Techniques,Adopt,FALSE,Seb
 CI/CD,Techniques,Adopt,FALSE,Aleks
