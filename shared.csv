@@ -1,19 +1,14 @@
 name,quadrant,ring,isNew,description
-Kotlin,Languages & Frameworks,Adopt,FALSE,
-TypeScript,Languages & Frameworks,Adopt,FALSE,
-Spring (Data JPA - MVC - Security - ...),Languages & Frameworks,Adopt,FALSE,
-Express,Languages & Frameworks,Adopt,FALSE,
-Node.js,Languages & Frameworks,Adopt,FALSE,
-React,Languages & Frameworks,Adopt,FALSE,
-Redux,Languages & Frameworks,Adopt,FALSE,
-Nimbus,Languages & Frameworks,Adopt,FALSE,
-GraphQL,Languages & Frameworks,Hold,FALSE,We do not see an opportunity to introduce GraphQL into the existing system landscape right now.
-React i18next,Languages & Frameworks,Adopt,FALSE,
-NextJS,Languages & Frameworks,Hold,FALSE,Benefits don't outweigh the effort for the time being
-JUnit 5,Languages & Frameworks,Adopt,FALSE,
-Mockito,Languages & Frameworks,Adopt,FALSE,
-AssertJ,Languages & Frameworks,Adopt,FALSE,
-cypress,Languages & Frameworks,Adopt,FALSE,
+OKRs,Techniques,Adopt,FALSE,Aleks
+DRIs,Techniques,Adopt,FALSE,Beriwan
+1:1,Techniques,Adopt,FALSE,Dimitri
+Infrastructure as Code,Techniques,Adopt,FALSE,Seb
+CI/CD,Techniques,Adopt,FALSE,Aleks
+DevOps,Techniques,Adopt,FALSE,Seb
+Code of Conduct,Techniques,Adopt,FALSE,Dimitri
+No estimates,Techniques,Adopt,FALSE,Seb
+Pair programming,Techniques,Adopt,FALSE,Aleks
+Chapter,Techniques,Trial,FALSE,Beriwan
 Kibana,Tools,Adopt,FALSE,
 Filebeat,Tools,Adopt,FALSE,
 Yarn,Tools,Adopt,FALSE,
@@ -45,13 +40,18 @@ GitHub Actions,Platforms,Adopt,FALSE,
 Google Cloud Platform (GCP),Platforms,Adopt,FALSE,
 Google Cloud Build,Platforms,Hold,FALSE,We prefer GitHub Actions due to be superior integration with GitHub
 Mailgun,Platforms,Adopt,FALSE,
-OKRs,Techniques,Adopt,FALSE,Aleks
-DRIs,Techniques,Adopt,FALSE,Beriwan
-1:1,Techniques,Adopt,FALSE,Dimitri
-Infrastructure as Code,Techniques,Adopt,FALSE,Seb
-CI/CD,Techniques,Adopt,FALSE,Aleks
-DevOps,Techniques,Adopt,FALSE,Seb
-Code of Conduct,Techniques,Adopt,FALSE,Dimitri
-No estimates,Techniques,Adopt,FALSE,Seb
-Pair programming,Techniques,Adopt,FALSE,Aleks
-Chapter,Techniques,Trial,FALSE,Beriwan
+Kotlin,Languages & Frameworks,Adopt,FALSE,
+TypeScript,Languages & Frameworks,Adopt,FALSE,
+Spring (Data JPA - MVC - Security - ...),Languages & Frameworks,Adopt,FALSE,
+Express,Languages & Frameworks,Adopt,FALSE,
+Node.js,Languages & Frameworks,Adopt,FALSE,
+React,Languages & Frameworks,Adopt,FALSE,
+Redux,Languages & Frameworks,Adopt,FALSE,
+Nimbus,Languages & Frameworks,Adopt,FALSE,
+GraphQL,Languages & Frameworks,Hold,FALSE,We do not see an opportunity to introduce GraphQL into the existing system landscape right now.
+React i18next,Languages & Frameworks,Adopt,FALSE,
+NextJS,Languages & Frameworks,Hold,FALSE,Benefits don't outweigh the effort for the time being
+JUnit 5,Languages & Frameworks,Adopt,FALSE,
+Mockito,Languages & Frameworks,Adopt,FALSE,
+AssertJ,Languages & Frameworks,Adopt,FALSE,
+cypress,Languages & Frameworks,Adopt,FALSE,
