@@ -1,6 +1,6 @@
 name,quadrant,ring,isNew,description
 OKRs,Techniques,Adopt,FALSE,"OKRs stands for Objectives and Key Results. At the beginning of every quarter we plan which Objectives we want to accomplish. After we have agreed on which Objectives to tackle, we assign different Key Results to them which represent concrete steps or actions on how to achieve set Objectives."
-DRIs,Techniques,Adopt,FALSE,Beriwan
+DRIs,Techniques,Adopt,FALSE,"DRI stands for Directly Responsible Individual. A DRI is responsible for a quarterly objective being completed, but they do not need to do (all) the work themselves. Each team member can be the DRI for one or multiple objectives each quarter."
 1:1,Techniques,Adopt,FALSE,"Regular 1:1 meetings with the supervisor"
 Infrastructure as Code,Techniques,Adopt,FALSE,"We use kustomize, docker-compose, GitHub Actions and to some extent terraform to automate and document the recurring parts of our deployments."
 CI/CD,Techniques,Adopt,FALSE,"We have numerous jobs that run for each pull request and check if there are any problems with our code base. In order to merge code into the master brach, all checks have to pass. After code is merged into master, automated jobs run to deploy our application."
@@ -8,7 +8,7 @@ DevOps,Techniques,Adopt,FALSE,"The developers of our team also operate and monit
 Code of Conduct,Techniques,Adopt,FALSE,"A set of rules we defined as a team to create a pleasant and sustainable working environment"
 No estimates,Techniques,Adopt,FALSE,"We do no estimate how much time we are going to need to finish a task or achieve a goal. We prioritize and maintain a steady flow of ""small"" pieces of work. We thereby ensure that the most important stuff gets done first and that we are able to adjust our plans."
 Pair programming,Techniques,Adopt,FALSE,"We do not do pair programming very frequently, but rather when it makes sense, for example to share knowledge or refactor code."
-Chapter,Techniques,Trial,FALSE,Beriwan
+Chapter,Techniques,Trial,FALSE,"Chapters at Camunda are reoccurring, voluntary meetings with people that work and/or are interested in a certain field, for instance the Frontend Chapter for Frontend Engineers. During these meetings, people can share their findings concerning e.g. Frontend-related topics within their team, ask questions or start a discussion."
 Kibana,Tools,Adopt,FALSE,
 Filebeat,Tools,Adopt,FALSE,
 Yarn,Tools,Adopt,FALSE,
