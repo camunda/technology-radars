@@ -1,7 +1,7 @@
 name,quadrant,ring,isNew,description
 OKRs,Techniques,Adopt,FALSE,"OKRs stands for Objectives and Key Results. At the beginning of every quarter we plan which Objectives we want to accomplish. After we have agreed on which Objectives to tackle, we assign different Key Results to them which represent concrete steps or actions on how to achieve set Objectives."
 DRIs,Techniques,Adopt,FALSE,"DRI stands for Directly Responsible Individual. A DRI is responsible for a quarterly objective being completed, but they do not need to do (all) the work themselves. Each team member can be the DRI for one or multiple objectives each quarter."
-1:1,Techniques,Adopt,FALSE,"Regular 1:1 meetings with the supervisor"
+1:1,Techniques,Adopt,FALSE,"Our developers have weekly 1:1 meetings with the Engineering Manager that provide each of us up to an hour of time to improve continuously and to give each other feedback. We also do skip-level 1:1's that skip one level of the hierarchy at a slower schedule."
 Infrastructure as Code,Techniques,Adopt,FALSE,"We use kustomize, docker-compose, GitHub Actions and to some extent terraform to automate and document the recurring parts of our deployments."
 CI/CD,Techniques,Adopt,FALSE,"We have numerous jobs that run for each pull request and check if there are any problems with our code base. In order to merge code into the master brach, all checks have to pass. After code is merged into master, automated jobs run to deploy our application."
 DevOps,Techniques,Adopt,FALSE,"The developers of our team also operate and monitor our SaaS services. Each week a developer acts as a medic. The SRE and Infra teams support us in more advanced scenarios."
