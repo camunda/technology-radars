@@ -7,7 +7,7 @@ CI/CD,Techniques,Adopt,FALSE,"We have numerous jobs that run for each pull reque
 DevOps,Techniques,Adopt,FALSE,"The developers of our team also operate and monitor our SaaS services. Each week a developer acts as a medic. The SRE and Infra teams support us in more advanced scenarios."
 Code of Conduct,Techniques,Adopt,FALSE,"A set of rules we defined as a team to create a pleasant and sustainable working environment"
 No estimates,Techniques,Adopt,FALSE,"We do no estimate how much time we are going to need to finish a task or achieve a goal. We prioritize and maintain a steady flow of ""small"" pieces of work. We thereby ensure that the most important stuff gets done first and that we are able to adjust our plans."
-Pair programming,Techniques,Adopt,FALSE,"We do not do pair programming very frequently, but rather when it makes sense, for example to share knowledge or refactor code."
+Pair programming,Techniques,Adopt,FALSE,"We do pair programming on demand to share knowledge or refactor code."
 Chapter,Techniques,Trial,FALSE,"Chapters at Camunda are reoccurring, voluntary meetings with people that work and/or are interested in a certain field, for instance the Frontend Chapter for Frontend Engineers. During these meetings, people can share their findings concerning e.g. Frontend-related topics within their team, ask questions or start a discussion."
 Kibana,Tools,Adopt,FALSE,
 Filebeat,Tools,Adopt,FALSE,
