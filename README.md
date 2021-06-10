@@ -18,7 +18,6 @@ The radars can be seen at `https://<team>.radar.camunda.cloud`, for instance:
 - [Zeebe](https://zeebe.radar.camunda.cloud)
 
 If your team is not there, just add a coressponding `<team>.csv` file to this repo and a link to the list above.
-The radar will be available at `<team>.radar.camunda.cloud` automagically.
 
 ## Why?
 
