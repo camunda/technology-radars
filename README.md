@@ -1,8 +1,8 @@
 # Camunda Technology Radars
 
-![radar](https://insights-images.thoughtworks.com/Build20Your20Own20Technology20Radar20Article01_6e6c10a7f14a74a69d7308f3d77af5ce.png)
-
 A collection of data to generate technology radars for various Camunda Engineering Teams.
+
+Inspired by https://github.com/thoughtworks/build-your-own-radar
 
 ## Team Radars
 
