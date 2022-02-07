@@ -1,8 +1,8 @@
-# Camunda Technology Radars
+# 🎯 Camunda Technology Radars
 
 A collection of data to generate technology radars for various Camunda Engineering Teams.
 
-Inspired by https://github.com/thoughtworks/build-your-own-radar
+Inspired by and using https://github.com/thoughtworks/build-your-own-radar
 
 ## Team Radars
 
