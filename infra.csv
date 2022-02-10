@@ -10,14 +10,19 @@ AWS EC2,Services,Adopt,FALSE,<p>Cawemo clusters are defined with kops -> Terrafo
 AWS RDS,Services,Adopt,FALSE,"<p>Hosting various databases, e.g. Cawemo stage and prod, Aurora MySQL and Postgres for running CamBPM integration tests</p>"
 AWS ECS,Services,Adopt,TRUE,<p>Used to run CamBPM Jenkins jobs running integration tests against Aurora databases</p>
 AWS Lambda,Services,Adopt,FALSE,"<p>Used by Cawemo for the <a href=""https://github.com/cawemo/app-thumbnail"">thumbnail generator</a></p>"
-GCP Data Studio,Services,Trial,TRUE,"<p>Building <a href=""https://confluence.camunda.com/display/SRE/Spending+Reports"">spending reports</a> for GKE clusters.</p>"
-GCP Big Query,Services,Trial,TRUE,"<p>Storing GKE usage data for camunda-ci cluster, used for <a href=""https://confluence.camunda.com/display/SRE/Spending+Reports"">spending reports</a></p>"
+AWS EKS,Services, Adopt,TRUE,"<p>A replacement for the kops setup for Cawemo clusters</p>"
+Azure,Services,Adopt,FALSE,"<p>Used for the CI Platform, to run Jenkins runners and SQL instances in the Azure Cloud for the Automation Platform pipelines</p>"
+Azure SQL,Services,Adopt,FALSE,"<p>Used for the CI Platform, for SQL instances in the Azure Cloud for the Automation Platform pipelines</p>"
+Azure VM,Services,Adopt,FALSE,"<p>Used for the CI Platform, for Jenkins runners in the Azure Cloud for the Automation Platform pipelines</p>"
+GCP Data Studio,Services,Adopt,FALSE,"<p>Building <a href=""https://confluence.camunda.com/display/SRE/Spending+Reports"">spending reports</a> for GKE clusters.</p>"
+GCP Big Query,Services,Adopt,FALSE,"<p>Storing GKE usage data for camunda-ci cluster, used for <a href=""https://confluence.camunda.com/display/SRE/Spending+Reports"">spending reports</a></p>"
 Terraform Cloud,Services,Adopt,TRUE,"<p><a href=""https://www.terraform.io/docs/cloud/index.html"">GitOps</a> for Terraform.</p>"
 AWS EKS,Services,Assess,TRUE,<p>Can be a replacement for kops-defined k8s Cawemo clusters if the clusters stay in AWS.</p>
 Vault,Infrastructure Components,Adopt,FALSE,
 Jenkins,Infrastructure Components,Adopt,FALSE,
-ArgoCD,Infrastructure Components,Adopt,FALSE,"<p><a href=""https://argoproj.github.io/argo-cd/"">GitOps</a> for Kubernetes cluster manifests.</p>"
-Nexus,Infrastructure Components,Adopt,FALSE,
+Argo CD,Infrastructure Components,Adopt,FALSE,"<p><a href=""https://argoproj.github.io/argo-cd/"">GitOps</a> for Kubernetes cluster manifests.</p>"
+Artifactory,Infrastructure Components,Adopt,TRUE,"<p>Camuda Artifact <a href=""https://camunda.jfrog.io"">Storage</a></p>"
+Nexus,Infrastructure Components,Adopt,FALSE,"<p>Artifact cache for Camunda CI</p>"
 Harbor,Infrastructure Components,Adopt,TRUE,"<p>A Docker registry for Camunda images: <a href=""https://registry.camunda.cloud"">registry.camunda.cloud</a></p>"
 Trivy,Infrastructure Components,Adopt,TRUE,"<p><a href=""https://github.com/aquasecurity/trivy"">Trivy</a> is simple and comprehensive vulnerability scanner for containers and other artifacts, suitable for CI.</p>"
 Download Center,Infrastructure Components,Adopt,TRUE,"<p><a href=""https://downloads.camunda.cloud"">Download center</a> for Camunda products. <a href=""https://github.com/camunda-internal/camunda-downloads"">repository</a></p>"
@@ -27,12 +32,11 @@ Prometheus,Infrastructure Components,Adopt,FALSE,
 Grafana,Infrastructure Components,Adopt,FALSE,
 Alert Manager,Infrastructure Components,Adopt,FALSE,
 Vouch,Infrastructure Components,Adopt,TRUE,"<p><a href=""https://github.com/vouch/vouch-proxy"">Vouch</a> is a SSO proxy for Nginx used by us to authenticate requests by Okta</a></p>"
-Cert-manager,Infrastructure Components,Adopt,FALSE,"<p>Automated provisioning of TLS certificates for k8s clusters: <a href=""https://github.com/jetstack/cert-manager"">cert-manager</a>.</p>"
+cert-manager,Infrastructure Components,Adopt,FALSE,"<p>Automated provisioning of TLS certificates for k8s clusters: <a href=""https://github.com/jetstack/cert-manager"">cert-manager</a>.</p>"
 Velero,Infrastructure Components,Adopt,TRUE,"<p><a href=""https://velero.io/"">Velero</a> is an open source tool to safely backup and restore, perform disaster recovery, and migrate Kubernetes cluster resources and persistent volumes.</p>"
 Kubernetes External Secrets,Infrastructure Components,Adopt,TRUE,"<p><a href=""https://github.com/godaddy/kubernetes-external-secrets"">Kubernetes External Secrets</a> Kubernetes External Secrets allows you to use external secret management systems, like AWS Secrets Manager or HashiCorp Vault, to securely add secrets in Kubernetes.</p>"
-Gitlab CI/CD,Infrastructure Components,Assess,TRUE,"<p>Potential tool to enrich CI/CD offering to the other teams, which is currently limited by Jenkins</p>"
-GitHub Actions,Infrastructure Components,Assess,TRUE,"<p>Potential tool to enrich CI/CD offering to the other teams, which is currently limited by Jenkins</p>"
-Helm,Infrastructure Components,Hold,FALSE,"<p>We've completely replaced Helm charts with Kustomize.<br/>However, sometimes Helm charts are used as an upstream base for Kustomize projects.</p>"
+GitHub Actions,Infrastructure Components,Adopt,FALSE,"<p>CI offering on par with Jenkins for the Engineering teams</p>"
+Helm,Infrastructure Components,Assess,FALSE,"<p>We are aiming to use Helm charts for Camunda Products Preview Environments deployments</p>"
 Python,Languages & Frameworks,Adopt,FALSE,
 Golang,Languages & Frameworks,Assess,FALSE,"<p>Currently, only used in <a href=""https://github.com/camunda-ci/camunda-ci-dashboard"">broken dashboard</a></p>"
 Shell,Languages & Frameworks,Adopt,FALSE,
@@ -47,8 +51,11 @@ kubeval,Tools,Adopt,TRUE,"<p><a href=""https://kubeval.instrumenta.dev/"">kubeva
 CodeNarc,Tools,Adopt,TRUE,"<p><a href=""https://codenarc.github.io/CodeNarc/"">CodeNarc</a> is used to check for common defects and bad practices in Groovy projects, e.g. <a href=""https://github.com/camunda/jenkins-global-shared-library"">jenkins-global-shared-library</a>, <a href=""https://github.com/camunda/jenkins-job-dsl-seed-jobs"">jenkins-job-dsl-seed-jobs</a>.</p>"
 shfmt,Tools,Adopt,TRUE,
 Shellcheck,Tools,Adopt,TRUE,
-Kustomize,Tools,Adopt,FALSE,"<p><a href=""https://github.com/kubernetes-sigs/kustomize"">Kustomize</a> is a YAML templating tool to render k8s resources. Used in <a href=""https://github.com/camunda/infra-core"">infra-core</a> project.</p>"
+kustomize,Tools,Adopt,FALSE,"<p><a href=""https://github.com/kubernetes-sigs/kustomize"">Kustomize</a> is a YAML templating tool to render k8s resources. Used in <a href=""https://github.com/camunda/infra-core"">infra-core</a> project.</p>"
 config-lint,Tools,Adopt,FALSE,"<p><a href=""https://github.com/stelligent/config-lint"">config-lint</a> is a tool to validate configuration files using rules specified in YAML. We're use it locally and in CI pipelines to lint and ensure Terraform best practices like <a href=""https://www.terraform.io/docs/extend/best-practices/naming.html"">naming convention</a>.</p>"
 Renovate,Tools,Adopt,FALSE,"<p><a href=""https://github.com/renovatebot/renovate"">Renovate</a> is a universal dependency update tool for multi-platform and multi-language.</p>"
 Conftest,Tools,Adopt,TRUE,"<p><a href=""https://github.com/open-policy-agent/conftest"">Conftest</a> helps you write tests against structured configuration data. It uses the Rego language from Open Policy Agent (OPA).</p>"
-kops,Tools,Hold,FALSE,"<p>Cawemo k8s clusters are defined with kops.</p>"
+kops,Tools,Hold,FALSE,"<p>Cawemo k8s clusters are defined with kops, to be migrated to AWS EKS.</p>"
+pre-commit,Tools,Adopt,FALSE,"<p>Using pre-commit hooks for code linting and formatting checking</p>"
+tfsec,Tools,Adopt,TRUE,"<p>Terraform security best practices linter</p>"
+Snyk,Tools,Assess,TRUE,"<p>Vulnerability scanning solution</p>"
