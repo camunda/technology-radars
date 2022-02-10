@@ -8,13 +8,13 @@ Inspired by and using https://github.com/thoughtworks/build-your-own-radar
 
 The radars can be seen at `https://<team>.radar.camunda.cloud`, for instance:
 
-- [CamBPM](https://cambpm.radar.camunda.cloud)
+- [Automation Platform](https://cambpm.radar.camunda.cloud)
 - [Cawemo](https://cawemo.radar.camunda.cloud)
 - [Cloud](https://cloud.radar.camunda.cloud)
 - [Infrastructure](https://infra.radar.camunda.cloud)
 - [Operate](https://operate.radar.camunda.cloud)
 - [Optimize](https://optimize.radar.camunda.cloud)
-- [Shared Services](https://shared.radar.camunda.cloud)
+- [Identity](https://shared.radar.camunda.cloud)
 - [Zeebe](https://zeebe.radar.camunda.cloud)
 
 If your team is not there, just add a coressponding `<team>.csv` file to this repo and a link to the list above.
