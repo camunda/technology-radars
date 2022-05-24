@@ -30,6 +30,7 @@ Nginx,Infrastructure Components,Adopt,FALSE,"<p>We're using nginx-ingress as a r
 OpenLDAP,Infrastructure Components,Adopt,FALSE,<p>We host an LDAP replica of the main LDAP instance maintained by IT.</p>
 Prometheus,Infrastructure Components,Adopt,FALSE,
 Grafana,Infrastructure Components,Adopt,FALSE,
+Statuspage,Infrastructure Components,Adopt,TRUE,"<p>A <a href=""https://status.camunda.cloud/"">status page</a> for our services</p>"
 Alert Manager,Infrastructure Components,Adopt,FALSE,
 Vouch,Infrastructure Components,Adopt,TRUE,"<p><a href=""https://github.com/vouch/vouch-proxy"">Vouch</a> is a SSO proxy for Nginx used by us to authenticate requests by Okta</a></p>"
 cert-manager,Infrastructure Components,Adopt,FALSE,"<p>Automated provisioning of TLS certificates for k8s clusters: <a href=""https://github.com/jetstack/cert-manager"">cert-manager</a>.</p>"
@@ -49,6 +50,7 @@ Pylint,Tools,Adopt,TRUE,
 yamllint,Tools,Adopt,TRUE,
 kubeval,Tools,Adopt,TRUE,"<p><a href=""https://kubeval.instrumenta.dev/"">kubeval</a> is used in <a href=""https://github.com/camunda/infra-core"">infra-core</a> project to check the validity of k8s manifests against the current and the next minor versions of the clusters.</p>"
 CodeNarc,Tools,Adopt,TRUE,"<p><a href=""https://codenarc.github.io/CodeNarc/"">CodeNarc</a> is used to check for common defects and bad practices in Groovy projects, e.g. <a href=""https://github.com/camunda/jenkins-global-shared-library"">jenkins-global-shared-library</a>, <a href=""https://github.com/camunda/jenkins-job-dsl-seed-jobs"">jenkins-job-dsl-seed-jobs</a>.</p>"
+medusa,Tools,Adopt,TRUE,"<p><a href=""https://github.com/jonasvinther/medusa/"">Medusa</a> is used to backup our Vault secret data</p>"
 shfmt,Tools,Adopt,TRUE,
 Shellcheck,Tools,Adopt,TRUE,
 kustomize,Tools,Adopt,FALSE,"<p><a href=""https://github.com/kubernetes-sigs/kustomize"">Kustomize</a> is a YAML templating tool to render k8s resources. Used in <a href=""https://github.com/camunda/infra-core"">infra-core</a> project.</p>"
