@@ -9,7 +9,7 @@ jobs:
   validate_csv:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: Lint CSV
       # https://github.com/Data-Liberation-Front/csvlint.rb/blob/master/README.md
