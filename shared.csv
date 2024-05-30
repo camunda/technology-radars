@@ -42,7 +42,7 @@ Google Cloud Build,Platforms,Hold,FALSE,We prefer GitHub Actions due to be super
 Mailgun,Platforms,Adopt,FALSE,
 Kotlin,Languages & Frameworks,Adopt,FALSE,
 TypeScript,Languages & Frameworks,Adopt,FALSE,
-"Spring (Data JPA, MVC, Security, ...)",Languages & Frameworks,Adopt,FALSE,
+"Spring (Data JPA, MVC, ...)",Languages & Frameworks,Adopt,FALSE,
 Express,Languages & Frameworks,Adopt,FALSE,
 Node.js,Languages & Frameworks,Adopt,FALSE,
 React,Languages & Frameworks,Adopt,FALSE,
